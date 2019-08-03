@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Gettin' Giphy With It</title>
+</head>
+
+<body>
+    <nav class="nav navbar-dark">
+        <span class="navbar-text">
+            <h1>Welcom to Historic New York City</h1>
+        </span>
+    </nav>
+
+    <div class="container">
+        <!-- div to hold generated buttons -->
+        <div id="landmark-buttons">
+        </div>
+        <br>
+
+        <!-- form for generating buttons from giphy API -->
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="input-group" id="giphy-form">
+                    <input type="text" id="landmark-input" class="form-control" placeholder="Search for NYC landmarks">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" id="add-celeb" type="button" value="submit">Add 
+                        </button>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- div to hold gifs once button is clicked -->
+        <div id="gif-here">
+        </div>
+
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>
