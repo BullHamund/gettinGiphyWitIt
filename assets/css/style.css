@@ -1,0 +1,16 @@
+body {
+    background-image: url("../images/meme.jpg");
+    background-size: cover;
+    background-position: center center;
+    min-height: 1000px;
+    background-attachment: fixed;
+}
+@media screen and (max-width: 670px){
+   body{
+        min-height: 500px;
+    }
+}
+
+nav {
+    text-align: center;
+} 
