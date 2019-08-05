@@ -1,5 +1,5 @@
 body {
-    background-image: url("../images/meme.jpg");
+    background-image: url("../images/backGround.jpg");
     background-size: cover;
     background-position: center center;
     min-height: 1000px;
@@ -11,6 +11,3 @@ body {
     }
 }
 
-nav {
-    text-align: center;
-} 
