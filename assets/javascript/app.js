@@ -30,7 +30,7 @@ $(function() {
     $(document).on("click", ".searchButton", function() {
         $("#gifs-here").empty();
         var type = $(this).data('type');
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + type + "&api_key=MFCxtiGGppfvi4vmxsmeXWZ82NRKiTzO&limit=10";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + type + "&api_key=MFCxtiGGppfvi4vmxsmeXWZ82NRKiTzO&limit=10";
         $.ajax({
             url: queryURL,
             method: "GET"
